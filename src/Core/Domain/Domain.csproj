@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Nullable>enable</Nullable>
+		<TargetFramework>net8.0</TargetFramework>
+		<!--<ImplicitUsings>enable</ImplicitUsings>-->
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Features\Cms\" />
+	  <Folder Include="Features\Identity\Users\Enumerations\" />
+	  <Folder Include="SharedKernel\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Framework\Dtat.Seedwork.Abstractions\Dtat.Seedwork.Abstractions.csproj" />
+	</ItemGroup>
+
+</Project>

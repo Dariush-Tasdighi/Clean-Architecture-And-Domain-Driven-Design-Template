@@ -85,7 +85,7 @@ internal sealed class UserConfiguration : object, Microsoft.EntityFrameworkCore.
 		// **************************************************
 		//builder
 		//	.HasMany(current => current.Addresses)
-		//	.WithOne(navigationName: "UserId")
+		//	.WithOne()
 		//	.HasForeignKey(foreignKeyPropertyNames: "UserId")
 		//	.IsRequired(required: true)
 		//	.OnDelete(deleteBehavior: DeleteBehavior.Cascade)
